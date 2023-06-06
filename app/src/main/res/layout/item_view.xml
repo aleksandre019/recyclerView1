@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item_view"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="110dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/name"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/Surname"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="95dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/emailContentTV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/textview"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="emailSubjectTV1" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

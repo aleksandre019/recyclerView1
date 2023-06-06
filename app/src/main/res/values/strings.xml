@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">recyclerView</string>
+    <string name="name">NAME</string>
+    <string name="surname">Surname</string>
+    <string name="age">AGE:</string>
+    <string name="Surname">SURNAME</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+</resources>
